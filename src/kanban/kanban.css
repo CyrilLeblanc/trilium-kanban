@@ -1,0 +1,7 @@
+.kanban-board {
+    background-color: var(--left-pane-background-color);
+}
+
+.kanban-item {
+    background-color: var(--main-background-color);
+}
