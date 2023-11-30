@@ -12,10 +12,15 @@ A Kanban integration for Trilium Notes
 ## Features
 
 - Kanban view for child notes.
-- Drag and drop to change the order of items.
-- Drag and drop to change the board of an item.
-- Drag and drop to change the order of boards.
+- Change an item of board by drag-and-drop.
+- Reorder boards by drag-and-drop.
 - Click on an item to open the note.
+
+## Planned changes
+
+- Reorder items in a board by drag-and-drop.
+- Add a template for a Kanban view (easy setup).
+- Add buttons to create boards and items.
 
 ## Create a Kanban board
 
