@@ -13,16 +13,22 @@ A Kanban integration for Trilium Notes
 
 - Kanban view for child notes.
 - Change an item of board by drag-and-drop.
-- Reorder boards by drag-and-drop.
+- Reorder boards and items by drag-and-drop.
 - Click on an item to open the note.
+- Custom template for Kanban view (easy setup).
+- Button to create child note on each board.
 
 ## Planned changes
 
-- Reorder items in a board by drag-and-drop.
-- Add a template for a Kanban view (easy setup).
-- Add buttons to create boards and items.
+- Button to add a board.
 
 ## Create a Kanban board
+
+### Using the template
+
+- Right-click on a note and select `Insert child note > Kanban View`.
+
+### From scratch
 
 - Create a note of type `Render Note`.
   - Give this note the `renderNote` relation that points to the kanban integration note (`~renderNote=kanban`).
