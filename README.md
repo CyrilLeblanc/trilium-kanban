@@ -21,7 +21,7 @@ A Kanban integration for Trilium Notes
 
 - Create a note of type `Render Note`.
 - Add the relation to `~renderNote=kanban` HTML note.
-- Add the label `#sortOrder=sortOrder`.
+- Add the label `#sorted=sortOrder`.
 - Create a board by creating a sub-note.
 - Create an item by creating a sub-note of a board.
 
