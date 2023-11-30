@@ -5,9 +5,9 @@ A Kanban integration for Trilium Notes
 
 ## Installation
 
-1. Download the latest release from the [releases page](https://github.com/CyrilLeblanc/trilium-kanban/releases)
-2. Import the `.zip` file into Trilium by right-clicking on a note and selecting `Import into note`.
-3. Setup a Kanban board. See [Usage](#usage) for more details.
+1. Download the latest `.zip` release from the [releases page](https://github.com/CyrilLeblanc/trilium-kanban/releases)
+2. Import the `.zip` file into Trilium by right-clicking on a note and selecting `Import into note` (Use default import options).
+3. Setup a Kanban board. See [Create a Kanban board](#create-a-kanban-board) for more details.
 
 ## Features
 
@@ -25,9 +25,9 @@ A Kanban integration for Trilium Notes
 ## Create a Kanban board
 
 - Create a note of type `Render Note`.
-- Add the relation to `~renderNote=kanban` HTML note.
-- Add the label `#sorted=sortOrder`.
-- Create a board by creating a sub-note.
+  - Give this note the `renderNote` relation that points to the kanban integration note (`~renderNote=kanban`).
+  - Give this note the `sorted` label with a value of `sortOrder` (`#sorted=sortOrder`).
+- Create a board by creating a sub-note of the main `Render Note` you created above.
 - Create an item by creating a sub-note of a board.
 
 ## Credits
