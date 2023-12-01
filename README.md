@@ -21,6 +21,11 @@ A Kanban integration for Trilium Notes
 ## Planned changes
 
 - Button to add a board.
+- Move the "+" button at bottom of boards.
+- Remove "min-height" of boards
+- Add an input for new item title.
+- Set default position of new items to be the last of each boards.
+- Don't auto open new items when created.
 
 ## Create a Kanban board
 
