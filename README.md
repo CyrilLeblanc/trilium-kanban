@@ -3,31 +3,25 @@ A Kanban integration for Trilium Notes
 
 ![Demo](screenshots/demo.gif)
 
+## Features
+
+- Change a card of board by drag-and-drop.
+- Reorder boards and cards by drag-and-drop.
+- Scroll view on drag to side.
+- Click on a card to open it.
+- Double click on board title to edit it.
+- Button to add cards.
+- Custom template for Kanban view (easy setup).
+
+[Demo](screenshots/README.md)
+
 ## Installation
 
 1. Download the latest `.zip` release from the [releases page](https://github.com/CyrilLeblanc/trilium-kanban/releases)
 2. Import the `.zip` file into Trilium by right-clicking on a note and selecting `Import into note` (Use default import options).
-3. Setup a Kanban board. See [Create a Kanban board](#create-a-kanban-board) for more details.
+3. Setup a Kanban view. See [Create a Kanban board](#create-a-kanban-view) for more details.
 
-## Features
-
-- Kanban view for child notes.
-- Change an item of board by drag-and-drop.
-- Reorder boards and items by drag-and-drop.
-- Click on an item to open the note.
-- Custom template for Kanban view (easy setup).
-- Button to create child note on each board.
-
-## Planned changes
-
-- Button to add a board.
-- Move the "+" button at bottom of boards.
-- Remove "min-height" of boards
-- Add an input for new item title.
-- Set default position of new items to be the last of each boards.
-- Don't auto open new items when created.
-
-## Create a Kanban board
+## Create a Kanban view
 
 ### Using the template
 
@@ -36,10 +30,18 @@ A Kanban integration for Trilium Notes
 ### From scratch
 
 - Create a note of type `Render Note`.
-  - Give this note the `renderNote` relation that points to the kanban integration note (`~renderNote=kanban`).
+  - Give this note the `renderNote` relation that points to the kanban integration note (`~renderNote=Kanban View`).
   - Give this note the `sorted` label with a value of `sortOrder` (`#sorted=sortOrder`).
 - Create a board by creating a sub-note of the main `Render Note` you created above.
 - Create an item by creating a sub-note of a board.
+
+## Planned changes
+
+- Button to add a board.
+- Remove "min-height" of boards
+- Add an input for new item title.
+- Set default position of new items to be the last of each boards.
+- Don't auto open new items when created.
 
 ## Credits
 - [Trilium Notes](https://github.com/zadam/trilium)
