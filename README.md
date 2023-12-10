@@ -33,15 +33,7 @@ A Kanban integration for Trilium Notes
   - Give this note the `renderNote` relation that points to the kanban integration note (`~renderNote=Kanban View`).
   - Give this note the `sorted` label with a value of `sortOrder` (`#sorted=sortOrder`).
 - Create a board by creating a sub-note of the main `Render Note` you created above.
-- Create an item by creating a sub-note of a board.
-
-## Planned changes
-
-- Button to add a board.
-- Remove "min-height" of boards
-- Add an input for new item title.
-- Set default position of new items to be the last of each boards.
-- Don't auto open new items when created.
+- Create an item by creating a sub-note of a board
 
 ## Credits
 - [Trilium Notes](https://github.com/zadam/trilium)
