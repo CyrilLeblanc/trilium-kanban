@@ -18,7 +18,7 @@ A Kanban integration for Trilium Notes
 ## Installation
 
 1. Download the latest `.zip` release from the [releases page](https://github.com/CyrilLeblanc/trilium-kanban/releases)
-2. Import the `.zip` file into Trilium by right-clicking on a note and selecting `Import into note` (Use default import options).
+2. Import the `.zip` file into Trilium by right-clicking on a note and selecting `Import into note` (With `Safe mode` unchecked).
 3. Setup a Kanban view. See [Create a Kanban board](#create-a-kanban-view) for more details.
 
 ## Create a Kanban view
