@@ -30,7 +30,10 @@ module.exports = async function() {
                 item: sortedCards.map(card => (
                     {
                         id: card.noteId,
-                        title: card.title
+                        title: card.title,
+                        backgroundColor: card.getLabelValue("backgroundColor"),
+                        textColor: card.getLabelValue("textColor"),
+                        iconClass: card.getLabelValue("iconClass")
                     }
                 ))
             };

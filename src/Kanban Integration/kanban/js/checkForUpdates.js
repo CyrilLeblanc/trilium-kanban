@@ -4,7 +4,7 @@ const githubApiEndpoint = "https://api.github.com/repos/CyrilLeblanc/trilium-kan
 
 module.exports = function($view) {
     if (disableCheck || window.kanban?.checked) {
-        return;
+       return;
     }
 
     $.ajax(githubApiEndpoint, {

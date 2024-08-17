@@ -30,6 +30,8 @@ const context = {
     actions,
 };
 
+handlePostGeneration(context)
 handleEvents(context);
 
+// you can comment this if you don't want the update banner
 checkForUpdates($view);

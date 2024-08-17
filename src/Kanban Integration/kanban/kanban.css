@@ -104,6 +104,10 @@
     margin: 0;
 }
 
+.kanban-item span::before {
+    padding-right: 0.5rem;
+}
+
 .kanban-item input {
     width: 100%;
     outline: none;

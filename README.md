@@ -12,6 +12,8 @@ A Kanban integration for Trilium Notes
 - Double click on board title to edit it.
 - Button to add cards.
 - Custom template for Kanban view (easy setup).
+- Icons for cards.
+- Custom colors for cards.
 
 [Demo](screenshots/README.md)
 
