@@ -27,12 +27,12 @@ module.exports = async function() {
             return {
                 id: board.noteId,
                 title: board.title,
+                iconClass: board.getLabelValue("iconClass"),
                 item: sortedCards.map(card => (
                     {
                         id: card.noteId,
                         title: card.title,
-                        backgroundColor: card.getLabelValue("backgroundColor"),
-                        textColor: card.getLabelValue("textColor"),
+                        kanbanStyle: card.getLabelValue("kanbanStyle"),
                         iconClass: card.getLabelValue("iconClass")
                     }
                 ))

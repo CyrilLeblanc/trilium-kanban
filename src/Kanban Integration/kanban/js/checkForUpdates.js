@@ -1,5 +1,5 @@
 const disableCheck = false;
-const currentVersion = "0.3";
+const currentVersion = "0.4";
 const githubApiEndpoint = "https://api.github.com/repos/CyrilLeblanc/trilium-kanban/releases/latest";
 
 module.exports = function($view) {

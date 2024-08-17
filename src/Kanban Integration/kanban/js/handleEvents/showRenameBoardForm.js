@@ -8,6 +8,7 @@ module.exports = function(event) {
     $form.append($input);
     
     const reset = function() {
+        return;
         $form.remove();
         $title.show();
     }

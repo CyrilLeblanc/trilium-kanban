@@ -28,6 +28,7 @@ const context = {
     kanban,
     helpers,
     actions,
+    settings
 };
 
 handlePostGeneration(context)

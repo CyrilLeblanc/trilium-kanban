@@ -1,7 +1,26 @@
+/* Variables */
+:root {    
+    --kanban-error-text: var(--white);
+    --kanban-error-background: #d9230f;
+    --kanban-success-text: var(--white);
+    --kanban-success-background: #3d8107;
+    --kanban-warning-text: var(--white);
+    --kanban-warning-background: #d9831f;
+    --kanban-info-text: var(--white);
+    --kanban-info-background: #5bc0de;
+    --kanban-primary-text: var(--white);
+    --kanban-primary-background: #337ab7;
+    --kanban-secondary-text: var(--white);
+    --kanban-secondary-background: #777;
+}
+
+/* Base */
+
 .kanban-container {
     position: relative;
     box-sizing: border-box;
     width: auto;
+    margin-top: .5rem;
 }
 
 .kanban-container * {
@@ -60,12 +79,19 @@
 }
 
 .kanban-title-board input {
-    width: 100%;
     outline: none;
     border: none;
     background-color: transparent;
     background: transparent;
     font-weight: bold;
+}
+
+.kanban-title-board form {
+    display: inline;
+}
+
+.kanban-board .bx::before {
+    padding-right: 0.5rem;
 }
 
 .kanban-board .kanban-drag {
@@ -81,6 +107,7 @@
 
 .kanban-item {
     background-color: var(--main-background-color);
+    color: var(--main-text-color);
     padding: 15px;
     margin-bottom: 20px;
     transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
@@ -104,7 +131,7 @@
     margin: 0;
 }
 
-.kanban-item span::before {
+.kanban-item .bx::before {
     padding-right: 0.5rem;
 }
 
@@ -207,4 +234,36 @@
 
 .drag_handler_icon:after {
     bottom: 6px;
+}
+
+/* Styles */
+
+.kanban-style-error {
+    background-color: var(--kanban-error-background);
+    color: var(--kanban-error-text);
+}
+
+.kanban-style-success {
+    background-color: var(--kanban-success-background);
+    color: var(--kanban-success-text);
+}
+
+.kanban-style-warning {
+    background-color: var(--kanban-warning-background);
+    color: var(--kanban-warning-text);
+}
+
+.kanban-style-info {
+    background-color: var(--kanban-info-background);
+    color: var(--kanban-info-text);
+}
+
+.kanban-style-primary {
+    background-color: var(--kanban-primary-background);
+    color: var(--kanban-primary-text);
+}
+
+.kanban-style-secondary {
+    background-color: var(--kanban-secondary-background);
+    color: var(--kanban-secondary-text);
 }
