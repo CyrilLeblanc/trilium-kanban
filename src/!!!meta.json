@@ -1,0 +1,1268 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.63.7",
+	"files": [
+		{
+			"noteId": "z9CsxMS4avvl",
+			"notePath": [
+				"z9CsxMS4avvl"
+			],
+			"isClone": false,
+			"title": "Kanban Integration",
+			"notePosition": 20,
+			"prefix": null,
+			"isExpanded": false,
+			"type": "text",
+			"mime": "text/html",
+			"format": "html",
+			"dirFileName": "Kanban Integration",
+			"noImport": false,
+			"attributes": [],
+			"attachments": [],
+			"children": [
+				{
+					"noteId": "cXoapCJzS3MA",
+					"notePath": [
+						"z9CsxMS4avvl",
+						"cXoapCJzS3MA"
+					],
+					"isClone": false,
+					"title": "kanban",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/html",
+					"dataFileName": "kanban.html",
+					"dirFileName": "kanban",
+					"noImport": false,
+					"attributes": [],
+					"attachments": [],
+					"children": [
+						{
+							"noteId": "Y3TGtOjkYYAS",
+							"notePath": [
+								"z9CsxMS4avvl",
+								"cXoapCJzS3MA",
+								"Y3TGtOjkYYAS"
+							],
+							"isClone": false,
+							"title": "js",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": true,
+							"type": "code",
+							"mime": "application/javascript;env=frontend",
+							"dataFileName": "js.js",
+							"dirFileName": "js",
+							"noImport": false,
+							"attributes": [
+								{
+									"type": "label",
+									"name": "sorted",
+									"value": "title",
+									"isInheritable": true,
+									"position": 10
+								},
+								{
+									"type": "label",
+									"name": "sortFoldersFirst",
+									"value": "",
+									"isInheritable": true,
+									"position": 20
+								}
+							],
+							"attachments": [],
+							"children": [
+								{
+									"noteId": "ZXR4me3xmlMj",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"ZXR4me3xmlMj"
+									],
+									"isClone": false,
+									"title": "actions",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "actions.js",
+									"dirFileName": "actions",
+									"noImport": false,
+									"attributes": [],
+									"attachments": [],
+									"children": [
+										{
+											"noteId": "fcIKBJ8L79A1",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"fcIKBJ8L79A1"
+											],
+											"isClone": false,
+											"title": "createBoard",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "createBoard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "9aNOpfQSp5JX",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"9aNOpfQSp5JX"
+											],
+											"isClone": false,
+											"title": "createCard",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "createCard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "cs6ngn7gqkLZ",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"cs6ngn7gqkLZ"
+											],
+											"isClone": false,
+											"title": "deleteBoard",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "deleteBoard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "25NyZ7AZrdjp",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"25NyZ7AZrdjp"
+											],
+											"isClone": false,
+											"title": "deleteCard",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "deleteCard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "Jnk4W4t8WpPU",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"Jnk4W4t8WpPU"
+											],
+											"isClone": false,
+											"title": "moveBoard",
+											"notePosition": 70,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "moveBoard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "vs04TeHrtoKy",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"vs04TeHrtoKy"
+											],
+											"isClone": false,
+											"title": "moveCard",
+											"notePosition": 80,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "moveCard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "Mnjj0XL4qilJ",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"Mnjj0XL4qilJ"
+											],
+											"isClone": false,
+											"title": "renameBoard",
+											"notePosition": 90,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "renameBoard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "Pe0HsxxTHAJC",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"Pe0HsxxTHAJC"
+											],
+											"isClone": false,
+											"title": "renameCard",
+											"notePosition": 100,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "renameCard.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "rVNVywMGpXtX",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"rVNVywMGpXtX"
+											],
+											"isClone": false,
+											"title": "sortBoards",
+											"notePosition": 110,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "sortBoards.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "0EdFiHeoiDse",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"ZXR4me3xmlMj",
+												"0EdFiHeoiDse"
+											],
+											"isClone": false,
+											"title": "sortCards",
+											"notePosition": 120,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "sortCards.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										}
+									]
+								},
+								{
+									"noteId": "flMmoNTp2UPD",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"flMmoNTp2UPD"
+									],
+									"isClone": false,
+									"title": "handleEvents",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "handleEvents.js",
+									"dirFileName": "handleEvents",
+									"noImport": false,
+									"attributes": [],
+									"attachments": [],
+									"children": [
+										{
+											"noteId": "hoveddSUcSPT",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"flMmoNTp2UPD",
+												"hoveddSUcSPT"
+											],
+											"isClone": false,
+											"title": "scrollOnDrag",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "scrollOnDrag.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "IlLgdKNyX6V2",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"flMmoNTp2UPD",
+												"IlLgdKNyX6V2"
+											],
+											"isClone": false,
+											"title": "showNewCardForm",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "showNewCardForm.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "pdeMgrBDOCWo",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"flMmoNTp2UPD",
+												"pdeMgrBDOCWo"
+											],
+											"isClone": false,
+											"title": "showRenameBoardForm",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "showRenameBoardForm.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										}
+									]
+								},
+								{
+									"noteId": "y5Q2DqfTtZpz",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"y5Q2DqfTtZpz"
+									],
+									"isClone": false,
+									"title": "handlePostGeneration",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "handlePostGeneration.js",
+									"dirFileName": "handlePostGeneration",
+									"noImport": false,
+									"attributes": [],
+									"attachments": [],
+									"children": [
+										{
+											"noteId": "y8YVUtfxv4Ri",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"y5Q2DqfTtZpz",
+												"y8YVUtfxv4Ri"
+											],
+											"isClone": false,
+											"title": "prepareBoards",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "prepareBoards.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "tw8GSNoQ532c",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"y5Q2DqfTtZpz",
+												"tw8GSNoQ532c"
+											],
+											"isClone": false,
+											"title": "prepareCards",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "prepareCards.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										}
+									]
+								},
+								{
+									"noteId": "xHTFjVo228Ep",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"xHTFjVo228Ep"
+									],
+									"isClone": false,
+									"title": "helpers",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "helpers.js",
+									"dirFileName": "helpers",
+									"noImport": false,
+									"attributes": [],
+									"attachments": [],
+									"children": [
+										{
+											"noteId": "bTgTiuZeVOhH",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"bTgTiuZeVOhH"
+											],
+											"isClone": false,
+											"title": "deleteNote",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "deleteNote.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "LCCEs6Rc5EXE",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"LCCEs6Rc5EXE"
+											],
+											"isClone": false,
+											"title": "getBoardIds",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "getBoardIds.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "525kA0tUl1L8",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"525kA0tUl1L8"
+											],
+											"isClone": false,
+											"title": "getCardIds",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "getCardIds.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "eaGJPd5Bzfn8",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"eaGJPd5Bzfn8"
+											],
+											"isClone": false,
+											"title": "getNoteId",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "getNoteId.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "DN7gPLnCPur0",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"DN7gPLnCPur0"
+											],
+											"isClone": false,
+											"title": "getScrollDirections",
+											"notePosition": 50,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "getScrollDirections.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "1jf7QHdfga4a",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"1jf7QHdfga4a"
+											],
+											"isClone": false,
+											"title": "handlePositioning",
+											"notePosition": 60,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "handlePositioning.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "Gj220mz5d7FI",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"Gj220mz5d7FI"
+											],
+											"isClone": false,
+											"title": "navigateToNote",
+											"notePosition": 70,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "navigateToNote.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "s4RlBnq5XbKV",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"s4RlBnq5XbKV"
+											],
+											"isClone": false,
+											"title": "renameNote",
+											"notePosition": 80,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "renameNote.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										},
+										{
+											"noteId": "7D2iFxPOhEi5",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"cXoapCJzS3MA",
+												"Y3TGtOjkYYAS",
+												"xHTFjVo228Ep",
+												"7D2iFxPOhEi5"
+											],
+											"isClone": false,
+											"title": "sortNotes",
+											"notePosition": 100,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "code",
+											"mime": "application/javascript;env=frontend",
+											"dataFileName": "sortNotes.js",
+											"noImport": false,
+											"attributes": [],
+											"attachments": []
+										}
+									]
+								},
+								{
+									"noteId": "VzvxWKCZ1of2",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"VzvxWKCZ1of2"
+									],
+									"isClone": false,
+									"title": "checkForUpdates",
+									"notePosition": 50,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "checkForUpdates.js",
+									"noImport": false,
+									"attributes": [],
+									"attachments": []
+								},
+								{
+									"noteId": "M0dL0dPNdcIu",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"M0dL0dPNdcIu"
+									],
+									"isClone": false,
+									"title": "getInitialData",
+									"notePosition": 70,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "getInitialData.js",
+									"noImport": false,
+									"attributes": [],
+									"attachments": []
+								},
+								{
+									"noteId": "hHJSlA7kJaTZ",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"hHJSlA7kJaTZ"
+									],
+									"isClone": false,
+									"title": "jkanban.min.js",
+									"notePosition": 80,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "file",
+									"mime": "text/javascript",
+									"dataFileName": "jkanban.min.js",
+									"noImport": false,
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "jkanban.min.js",
+											"isInheritable": false,
+											"position": 10
+										}
+									],
+									"attachments": []
+								},
+								{
+									"noteId": "Jtoy7SvWxfj6",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"cXoapCJzS3MA",
+										"Y3TGtOjkYYAS",
+										"Jtoy7SvWxfj6"
+									],
+									"isClone": false,
+									"title": "settings",
+									"notePosition": 90,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "code",
+									"mime": "application/javascript;env=frontend",
+									"dataFileName": "settings.js",
+									"noImport": false,
+									"attributes": [],
+									"attachments": []
+								}
+							]
+						},
+						{
+							"noteId": "dCkUws7japlE",
+							"notePath": [
+								"z9CsxMS4avvl",
+								"cXoapCJzS3MA",
+								"dCkUws7japlE"
+							],
+							"isClone": false,
+							"title": "kanban.css",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "code",
+							"mime": "text/css",
+							"dataFileName": "kanban.css",
+							"noImport": false,
+							"attributes": [
+								{
+									"type": "label",
+									"name": "appCss",
+									"value": "",
+									"isInheritable": false,
+									"position": 10
+								}
+							],
+							"attachments": []
+						}
+					]
+				},
+				{
+					"noteId": "iQYAmYU6Lbx2",
+					"notePath": [
+						"z9CsxMS4avvl",
+						"iQYAmYU6Lbx2"
+					],
+					"isClone": false,
+					"title": "Templates",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"format": "html",
+					"dirFileName": "Templates",
+					"noImport": false,
+					"attributes": [],
+					"attachments": [],
+					"children": [
+						{
+							"noteId": "RPJnNXPnFl5b",
+							"notePath": [
+								"z9CsxMS4avvl",
+								"iQYAmYU6Lbx2",
+								"RPJnNXPnFl5b"
+							],
+							"isClone": false,
+							"title": "Kanban View",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "render",
+							"mime": "",
+							"dirFileName": "Kanban View",
+							"noImport": false,
+							"attributes": [
+								{
+									"type": "label",
+									"name": "sorted",
+									"value": "sortOrder",
+									"isInheritable": false,
+									"position": 20
+								},
+								{
+									"type": "relation",
+									"name": "renderNote",
+									"value": "cXoapCJzS3MA",
+									"isInheritable": false,
+									"position": 40
+								},
+								{
+									"type": "label",
+									"name": "template",
+									"value": "",
+									"isInheritable": false,
+									"position": 30
+								},
+								{
+									"type": "relation",
+									"name": "child:template",
+									"value": "3OmyI5KY6Ass",
+									"isInheritable": false,
+									"position": 50
+								},
+								{
+									"type": "label",
+									"name": "iconClass",
+									"value": "bx bx-columns",
+									"isInheritable": false,
+									"position": 10
+								},
+								{
+									"type": "relation",
+									"name": "runOnChildNoteCreation",
+									"value": "ZFanvCvzEluW",
+									"isInheritable": false,
+									"position": 60
+								}
+							],
+							"attachments": [],
+							"children": [
+								{
+									"noteId": "MbAYN2wL0dvk",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"iQYAmYU6Lbx2",
+										"RPJnNXPnFl5b",
+										"MbAYN2wL0dvk"
+									],
+									"isClone": false,
+									"title": "Not Started",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "book",
+									"mime": "",
+									"dirFileName": "Not Started",
+									"noImport": false,
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "template",
+											"value": "3OmyI5KY6Ass",
+											"isInheritable": false,
+											"position": 10
+										},
+										{
+											"type": "label",
+											"name": "sortOrder",
+											"value": "0",
+											"isInheritable": false,
+											"position": 20
+										}
+									],
+									"attachments": [],
+									"children": [
+										{
+											"noteId": "ZYhdxFm5NmVQ",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"iQYAmYU6Lbx2",
+												"RPJnNXPnFl5b",
+												"MbAYN2wL0dvk",
+												"ZYhdxFm5NmVQ"
+											],
+											"isClone": false,
+											"title": "card_001",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"format": "html",
+											"dataFileName": "card_001.html",
+											"noImport": false,
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "template",
+													"value": "h1vmivPYzbPn",
+													"isInheritable": false,
+													"position": 10
+												},
+												{
+													"type": "label",
+													"name": "sortOrder",
+													"value": "0",
+													"isInheritable": false,
+													"position": 20
+												}
+											],
+											"attachments": []
+										},
+										{
+											"noteId": "5vmHb9khYoWg",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"iQYAmYU6Lbx2",
+												"RPJnNXPnFl5b",
+												"MbAYN2wL0dvk",
+												"5vmHb9khYoWg"
+											],
+											"isClone": false,
+											"title": "card_002",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"format": "html",
+											"dataFileName": "card_002.html",
+											"noImport": false,
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "template",
+													"value": "h1vmivPYzbPn",
+													"isInheritable": false,
+													"position": 10
+												},
+												{
+													"type": "label",
+													"name": "sortOrder",
+													"value": "1",
+													"isInheritable": false,
+													"position": 20
+												}
+											],
+											"attachments": []
+										},
+										{
+											"noteId": "xodKO8PG5rtJ",
+											"notePath": [
+												"z9CsxMS4avvl",
+												"iQYAmYU6Lbx2",
+												"RPJnNXPnFl5b",
+												"MbAYN2wL0dvk",
+												"xodKO8PG5rtJ"
+											],
+											"isClone": false,
+											"title": "card_003",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"format": "html",
+											"dataFileName": "card_003.html",
+											"noImport": false,
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "template",
+													"value": "h1vmivPYzbPn",
+													"isInheritable": false,
+													"position": 10
+												},
+												{
+													"type": "label",
+													"name": "sortOrder",
+													"value": "2",
+													"isInheritable": false,
+													"position": 20
+												}
+											],
+											"attachments": []
+										}
+									]
+								},
+								{
+									"noteId": "rpoScJDUHYnl",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"iQYAmYU6Lbx2",
+										"RPJnNXPnFl5b",
+										"rpoScJDUHYnl"
+									],
+									"isClone": false,
+									"title": "In Progress",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "book",
+									"mime": "",
+									"dataFileName": "In Progress.dat",
+									"noImport": false,
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "template",
+											"value": "3OmyI5KY6Ass",
+											"isInheritable": false,
+											"position": 10
+										},
+										{
+											"type": "label",
+											"name": "sortOrder",
+											"value": "2",
+											"isInheritable": false,
+											"position": 20
+										}
+									],
+									"attachments": []
+								},
+								{
+									"noteId": "Az0aqDNDgsVh",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"iQYAmYU6Lbx2",
+										"RPJnNXPnFl5b",
+										"Az0aqDNDgsVh"
+									],
+									"isClone": false,
+									"title": "In Production",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "book",
+									"mime": "",
+									"dataFileName": "In Production.dat",
+									"noImport": false,
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "template",
+											"value": "3OmyI5KY6Ass",
+											"isInheritable": false,
+											"position": 40
+										},
+										{
+											"type": "label",
+											"name": "sortOrder",
+											"value": "3",
+											"isInheritable": false,
+											"position": 50
+										}
+									],
+									"attachments": []
+								},
+								{
+									"noteId": "EO4D7to1GUxa",
+									"notePath": [
+										"z9CsxMS4avvl",
+										"iQYAmYU6Lbx2",
+										"RPJnNXPnFl5b",
+										"EO4D7to1GUxa"
+									],
+									"isClone": false,
+									"title": "Closed",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "book",
+									"mime": "",
+									"dataFileName": "Closed.dat",
+									"noImport": false,
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "template",
+											"value": "3OmyI5KY6Ass",
+											"isInheritable": false,
+											"position": 10
+										},
+										{
+											"type": "label",
+											"name": "sortOrder",
+											"value": "4",
+											"isInheritable": false,
+											"position": 20
+										}
+									],
+									"attachments": []
+								}
+							]
+						},
+						{
+							"noteId": "3OmyI5KY6Ass",
+							"notePath": [
+								"z9CsxMS4avvl",
+								"iQYAmYU6Lbx2",
+								"3OmyI5KY6Ass"
+							],
+							"isClone": false,
+							"title": "Kanban Board",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "book",
+							"mime": "",
+							"dataFileName": "Kanban Board.dat",
+							"noImport": false,
+							"attributes": [
+								{
+									"type": "label",
+									"name": "sorted",
+									"value": "sortOrder",
+									"isInheritable": false,
+									"position": 20
+								},
+								{
+									"type": "relation",
+									"name": "child:template",
+									"value": "h1vmivPYzbPn",
+									"isInheritable": false,
+									"position": 40
+								},
+								{
+									"type": "label",
+									"name": "iconClass",
+									"value": "bx bx-window",
+									"isInheritable": false,
+									"position": 10
+								},
+								{
+									"type": "label",
+									"name": "viewType",
+									"value": "list",
+									"isInheritable": false,
+									"position": 30
+								},
+								{
+									"type": "relation",
+									"name": "runOnChildNoteCreation",
+									"value": "ZFanvCvzEluW",
+									"isInheritable": false,
+									"position": 50
+								}
+							],
+							"attachments": []
+						},
+						{
+							"noteId": "h1vmivPYzbPn",
+							"notePath": [
+								"z9CsxMS4avvl",
+								"iQYAmYU6Lbx2",
+								"h1vmivPYzbPn"
+							],
+							"isClone": false,
+							"title": "Kanban Card",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"format": "html",
+							"dataFileName": "Kanban Card.html",
+							"noImport": false,
+							"attributes": [
+								{
+									"type": "label",
+									"name": "iconClass",
+									"value": "bx bx-note",
+									"isInheritable": false,
+									"position": 10
+								}
+							],
+							"attachments": []
+						}
+					]
+				},
+				{
+					"noteId": "4rqBogQtELO6",
+					"notePath": [
+						"z9CsxMS4avvl",
+						"4rqBogQtELO6"
+					],
+					"isClone": false,
+					"title": "eventHandlers",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"format": "html",
+					"dirFileName": "eventHandlers",
+					"noImport": false,
+					"attributes": [],
+					"attachments": [],
+					"children": [
+						{
+							"noteId": "ZFanvCvzEluW",
+							"notePath": [
+								"z9CsxMS4avvl",
+								"4rqBogQtELO6",
+								"ZFanvCvzEluW"
+							],
+							"isClone": false,
+							"title": "setupSortOrder",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "code",
+							"mime": "application/javascript;env=backend",
+							"dataFileName": "setupSortOrder.js",
+							"noImport": false,
+							"attributes": [],
+							"attachments": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}
